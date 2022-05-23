@@ -9,6 +9,13 @@
     src: url("./fonts/Manrope.ttf");
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto.ttf");
+}
+
+/* Loading Start */
+
 #Loading .Preloader {
     position: fixed;
     top: 0;
@@ -21,7 +28,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Manrope;
-    z-index: 1;
+    z-index: 2;
 }
 
 #Loading .Preloader::before {
@@ -32,7 +39,7 @@
     color: #9ABDDD;
 }
 
-.Preloader.Active {
+#Loading .Preloader.Active {
     transform: translateY(-100vh);
     transition: ease-in-out 2s;
     transition-delay: 1s;
@@ -51,8 +58,111 @@
     font-size: 0.7em;
 }
 
-.Hide {
+#Loading .Preloader .Counter.Hide {
     opacity: 0;
     transition-duration: 1s;
     pointer-events: none;
 }
+
+/* Loading End */
+
+
+
+/* NavBar Start */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    border: 0 solid white;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .Logo {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+nav .Menu {
+    padding-right: 200px;
+    padding-top: 27px;
+    font-family: Manrope;
+}
+
+nav .Menu ul {
+    list-style: none;
+    border: 0 solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 370px;
+}
+
+nav .Menu ul li .Button {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 300ms;
+}
+
+nav .Menu ul li .Button:hover {
+    color: #FFE900;
+}
+
+/* NavBar End */
+
+
+
+/* Home Start */
+
+#Home {
+    border: 0 solid;
+    height: 750px;
+    background-color: #F7C32F;
+    font-family: Roboto;
+}
+
+#Home .Title {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Home .Posters {
+    border: solid;
+    position: relative;
+    left: 24%;
+    top: 10%;
+    width: 1000px;
+    height: 450px;
+    animation-name: slideshow;
+    animation-duration: 7s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+
+@keyframes slideshow {
+    0%
+    {
+        background-image: url("./images/Sub-Zero\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    10%
+    {
+        background-image: url("./images/Scorpion\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Home End */
