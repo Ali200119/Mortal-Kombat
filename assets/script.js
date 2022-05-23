@@ -5,7 +5,8 @@ function Counter()
         $(".Counter").text((++c).toString());
         if (c == 100){
             clearInterval(count);
-            $(".Counter").addClass("Hide")
+            $(".Counter").addClass("HideC")
+            $(".LoadingLogo").addClass("HideL")
             $(".Preloader").addClass("Active")
         }
     }, 50)

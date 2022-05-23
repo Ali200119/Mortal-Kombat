@@ -49,7 +49,7 @@
     position: relative;
     color: #ECE1A3;
     font-size: 7em;
-    right: 20%;
+    right: 16%;
     top: 13%;
 }
 
@@ -58,10 +58,37 @@
     font-size: 0.7em;
 }
 
-#Loading .Preloader .Counter.Hide {
+#Loading .Preloader .Counter.HideC {
     opacity: 0;
     transition-duration: 1s;
     pointer-events: none;
+}
+
+#Loading .Preloader .LoadingLogo.HideL {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+#Loading .Preloader .LoadingLogo {
+    position: relative;
+    right: 40px;
+    top: 400px;
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+    0%
+    {
+        transform: rotate(0);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
 }
 
 /* Loading End */
@@ -143,18 +170,19 @@ nav .Menu ul li .Button:hover {
 }
 
 #Home .Posters {
-    border: solid;
+    border: 0 solid;
     position: relative;
     left: 24%;
     top: 10%;
     width: 1000px;
     height: 450px;
     animation-name: slideshow;
-    animation-duration: 35s;
+    animation-duration: 60s;
     animation-delay: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
+    transition-duration: 500ms;
 }
 
 @keyframes slideshow {
@@ -196,13 +224,6 @@ nav .Menu ul li .Button:hover {
     50%
     {
         background-image: url("./images/Noob\ Saibot\ \(Poster\).jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    60%
-    {
-        background-image: url("./images/Johnny\ Cage\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
