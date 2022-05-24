@@ -120,8 +120,8 @@ nav .Title {
     font-family: Manrope;
     font-size: 30px;
     color: white;
-    padding-top: 27px;
-    padding-right: 400px;
+    padding-top: 12px;
+    padding-right: 1160px;
 }
 
 nav .Menu {
@@ -159,14 +159,17 @@ nav .Menu ul li .Button:hover {
 #Home {
     border: 0 solid;
     height: 750px;
-    background-color: #F7C32F;
+    background-image: url("./images/Temple\ of\ Raiden.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Roboto;
 }
 
 #Home .Title {
     font-size: 60px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    color: #FDAE0C;
 }
 
 #Home .Posters {
@@ -177,7 +180,7 @@ nav .Menu ul li .Button:hover {
     width: 1000px;
     height: 450px;
     animation-name: slideshow;
-    animation-duration: 60s;
+    animation-duration: 90s;
     animation-delay: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -228,12 +231,40 @@ nav .Menu ul li .Button:hover {
         background-size: cover;
     }
 
-    /* 70%
+    60%
     {
-        background-image: url("./images/");
+        background-image: url("./images/Johnny\ Cage\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
-    } */
+    }
+
+    70%
+    {
+        background-image: url("./images/Sonya\ Blade\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    80%
+    {
+        background-image: url("./images/Kitana\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    90%
+    {
+        background-image: url("./images/Shao\ Kahn\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100%
+    {
+        background-image: url("./images/Sub-Zero\ \(Poster\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /* Home End */
