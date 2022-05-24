@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -122,6 +123,7 @@ nav .Title {
     color: white;
     padding-top: 12px;
     padding-right: 1160px;
+    cursor: default;
 }
 
 nav .Menu {
@@ -170,6 +172,7 @@ nav .Menu ul li .Button:hover {
     text-align: center;
     padding-top: 30px;
     color: #FDAE0C;
+    cursor: default;
 }
 
 #Home .Posters {
@@ -185,7 +188,7 @@ nav .Menu ul li .Button:hover {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
-    transition-duration: 500ms;
+    transition-duration: 400ms;
 }
 
 @keyframes slideshow {
@@ -268,3 +271,120 @@ nav .Menu ul li .Button:hover {
 }
 
 /* Home End */
+
+
+
+/* Characters Start */
+
+#Characters {
+    border: 0 solid;
+    height: 1200px;
+    background-color: blue;
+}
+
+/* Characters Start */
+
+#Characters .Container {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    width: 1200px;
+    position: relative;
+    justify-content: space-around;
+}
+
+#Characters .Container .Box1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#Characters .Container .Box2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#Characters .Container .Box1 .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+#Characters .Container .Box2 .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+#Characters .Container .Box1:hover .imgBox {
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box2:hover .imgBox {
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box1 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Characters .Container .Box2 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Characters .Container .Box1 .Layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+#Characters .Container .Box2 .Layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+#Characters .Container .Box1 .Layer1 {
+    background-color: #9ABDDD;
+    transform: translateY(100%);
+}
+
+#Characters .Container .Box2 .Layer1 {
+    background-color: black;
+    transform: translateY(100%);
+}
+
+#Characters .Container .Box1:hover .Layer1 {
+    background-color: #9ABDDD;
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box2:hover .Layer1 {
+    background-color: black;
+    transform: translateY(-100%);
+}
+
+/* Characters End */
