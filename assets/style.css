@@ -183,12 +183,12 @@ nav .Menu ul li .Button:hover {
     width: 1000px;
     height: 450px;
     animation-name: slideshow;
-    animation-duration: 90s;
+    animation-duration: 120s;
     animation-delay: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
-    transition-duration: 400ms;
+    transition-duration: 500ms;
 }
 
 @keyframes slideshow {
@@ -279,15 +279,29 @@ nav .Menu ul li .Button:hover {
 #Characters {
     border: 0 solid;
     height: 1200px;
+    background-image: url("./images/Characters\ Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+#Characters .Title {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    color: #FDAE0C;
+    cursor: default;
 }
 
 #Characters .Container {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
-    width: 1200px;
+    border: 0 solid;
+    width: 1500px;
     position: relative;
     justify-content: space-around;
+    top: 220px;
+    left: 200px;
 }
 
 #Characters .Container a {
@@ -302,6 +316,13 @@ nav .Menu ul li .Button:hover {
 }
 
 #Characters .Container .Box2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#Characters .Container .Box3 {
     position: relative;
     width: 300px;
     height: 400px;
@@ -326,11 +347,24 @@ nav .Menu ul li .Button:hover {
     transition: 1.5s ease-in-out;
 }
 
+#Characters .Container .Box3 .imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
 #Characters .Container .Box1:hover .imgBox {
     transform: translateY(-100%);
 }
 
 #Characters .Container .Box2:hover .imgBox {
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box3:hover .imgBox {
     transform: translateY(-100%);
 }
 
@@ -343,6 +377,14 @@ nav .Menu ul li .Button:hover {
 }
 
 #Characters .Container .Box2 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Characters .Container .Box3 .imgBox img {
     position: absolute;
     top: 0;
     left: 0;
@@ -368,6 +410,15 @@ nav .Menu ul li .Button:hover {
     transition: 1.5s ease-in-out;
 }
 
+#Characters .Container .Box3 .Layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s ease-in-out;
+}
+
 #Characters .Container .Box1 .Layer1 {
     background-color: #9ABDDD;
     transform: translateY(100%);
@@ -378,11 +429,20 @@ nav .Menu ul li .Button:hover {
     transform: translateY(100%);
 }
 
+#Characters .Container .Box3 .Layer1 {
+    background-color: white;
+    transform: translateY(100%);
+}
+
 #Characters .Container .Box1:hover .Layer1 {
     transform: translateY(-100%);
 }
 
 #Characters .Container .Box2:hover .Layer1 {
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box3:hover .Layer1 {
     transform: translateY(-100%);
 }
 
@@ -396,11 +456,20 @@ nav .Menu ul li .Button:hover {
     transform: translateY(200%);
 }
 
+#Characters .Container .Box3 .Layer2 {
+    background-color: #AADFEA;
+    transform: translateY(200%);
+}
+
 #Characters .Container .Box1:hover .Layer2 {
     transform: translateY(-100%);
 }
 
 #Characters .Container .Box2:hover .Layer2 {
+    transform: translateY(-100%);
+}
+
+#Characters .Container .Box3:hover .Layer2 {
     transform: translateY(-100%);
 }
 
@@ -420,7 +489,6 @@ nav .Menu ul li .Button:hover {
     color: white;
     background-color: #111;
     transform: translateY(300%);
-    font-family: Roboto;
 }
 
 #Characters .Container .Box .Content div h2 {
