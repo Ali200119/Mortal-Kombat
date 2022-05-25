@@ -9,3 +9,10 @@
     font-family: Roboto;
     src: url("/assets/fonts/Roboto.ttf");
 }
+
+#Header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/images/Sub-Zero\ \(Bio\).jpg");
+}
