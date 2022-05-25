@@ -122,34 +122,63 @@ nav .Title {
     font-size: 30px;
     color: white;
     padding-top: 12px;
-    padding-right: 1160px;
+    padding-right: 1055px;
     cursor: default;
 }
 
 nav .Menu {
     padding-right: 200px;
-    padding-top: 27px;
+    padding-top: 20px;
     font-family: Manrope;
 }
 
 nav .Menu ul {
     list-style: none;
-    border: 0 solid;
+    border: 0 solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 370px;
+    width: 450px;
 }
 
-nav .Menu ul li .Button {
-    font-size: 25px;
+nav .Menu ul li a {
+    display: inline-block;
     text-decoration: none;
-    color: white;
     transition-duration: 300ms;
+    border: 3px solid #FFE900;
+    border-radius: 5px;
+    height: 50px;
 }
 
-nav .Menu ul li .Button:hover {
-    color: #FFE900;
+nav .Menu ul li .Button1 {
+    width: 100px;
+    padding-left: 13px;
+    padding-top: 3px;
+}
+
+nav .Menu ul li .Button2 {
+    width: 160px;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+nav .Menu ul li .Button3 {
+    width: 110px;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+nav .Menu ul li a h4 {
+    color: white;
+    font-size: 25px;
+}
+
+nav .Menu ul li a:hover {
+    background-color: #FFE900;
+}
+
+nav .Menu ul li a:hover h4 {
+    color: black;
 }
 
 /* NavBar End */
