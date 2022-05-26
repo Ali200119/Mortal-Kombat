@@ -7,12 +7,17 @@
 
 @font-face {
     font-family: Manrope;
-    src: url("./fonts/Manrope.ttf");
+    src: url("/assets/fonts/Manrope.ttf");
+}
+
+@font-face {
+    font-family: Dash Horizon;
+    src: url("/assets/fonts/Dash\ Horizon.otf");
 }
 
 @font-face {
     font-family: Roboto;
-    src: url("./fonts/Roboto.ttf");
+    src: url("/assets/fonts/Roboto.ttf");
 }
 
 /* Loading Start */
@@ -25,7 +30,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("./images/Loading\ Screen.jpeg");
+    background-image: url("/assets/images/Loading\ Screen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Manrope;
@@ -118,7 +123,7 @@ nav .Logo {
 }
 
 nav .Title {
-    font-family: Manrope;
+    font-family: Dash Horizon;
     font-size: 30px;
     color: white;
     padding-top: 12px;
@@ -129,7 +134,7 @@ nav .Title {
 nav .Menu {
     padding-right: 200px;
     padding-top: 20px;
-    font-family: Manrope;
+    font-family: Dash Horizon;
 }
 
 nav .Menu ul {
@@ -190,10 +195,10 @@ nav .Menu ul li a:hover h4 {
 #Home {
     border: 0 solid;
     height: 750px;
-    background-image: url("./images/Temple\ of\ Raiden.webp");
+    background-image: url("/assets/images/Temple\ of\ Raiden.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Roboto;
+    font-family: Dash Horizon;
 }
 
 #Home .Title {
@@ -223,77 +228,77 @@ nav .Menu ul li a:hover h4 {
 @keyframes slideshow {
     0%
     {
-        background-image: url("./images/Sub-Zero\ \(Poster\).jpg");
+        background-image: url("/assets/images/Sub-Zero\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     10%
     {
-        background-image: url("./images/Scorpion\ \(Poster\).jpg");
+        background-image: url("/assets/images/Scorpion\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     20%
     {
-        background-image: url("./images/Raiden\ \(Poster\).jpg");
+        background-image: url("/assets/images/Raiden\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     30%
     {
-        background-image: url("./images/Liu\ Kang\ \(Poster\).jpg");
+        background-image: url("/assets/images/Liu\ Kang\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     40%
     {
-        background-image: url("./images/Kung\ Lao\ \(Poster\).jpg");
+        background-image: url("/assets/images/Kung\ Lao\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     50%
     {
-        background-image: url("./images/Noob\ Saibot\ \(Poster\).jpg");
+        background-image: url("/assets/images/Noob\ Saibot\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     60%
     {
-        background-image: url("./images/Johnny\ Cage\ \(Poster\).jpg");
+        background-image: url("/assets/images/Johnny\ Cage\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     70%
     {
-        background-image: url("./images/Sonya\ Blade\ \(Poster\).jpg");
+        background-image: url("/assets/images/Sonya\ Blade\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     80%
     {
-        background-image: url("./images/Kitana\ \(Poster\).jpg");
+        background-image: url("/assets/images/Kitana\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     90%
     {
-        background-image: url("./images/Shao\ Kahn\ \(Poster\).jpg");
+        background-image: url("/assets/images/Shao\ Kahn\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     100%
     {
-        background-image: url("./images/Sub-Zero\ \(Poster\).jpg");
+        background-image: url("/assets/images/Sub-Zero\ \(Poster\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -308,10 +313,9 @@ nav .Menu ul li a:hover h4 {
 #Characters {
     border: 0 solid;
     height: 1200px;
-    background-image: url("./images/Characters\ Background.jpg");
+    background-image: url("/assets/images/Characters\ Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Roboto;
 }
 
 #Characters .Title {
@@ -320,6 +324,7 @@ nav .Menu ul li a:hover h4 {
     padding-top: 30px;
     color: #FDAE0C;
     cursor: default;
+    font-family: Dash Horizon;
 }
 
 #Characters .Container {
@@ -331,6 +336,7 @@ nav .Menu ul li a:hover h4 {
     justify-content: space-around;
     top: 150px;
     left: 200px;
+    font-family: Roboto;
 }
 
 #Characters .Container a {
