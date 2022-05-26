@@ -123,11 +123,12 @@ nav .Logo {
 }
 
 nav .Title {
+    position: relative;
     font-family: Dash Horizon;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
-    padding-top: 12px;
-    padding-right: 1055px;
+    bottom: 15px;
+    padding-right: 1050px;
     cursor: default;
 }
 
@@ -157,25 +158,24 @@ nav .Menu ul li a {
 
 nav .Menu ul li .Button1 {
     width: 100px;
-    padding-left: 13px;
-    padding-top: 3px;
+    padding-left: 14px;;
 }
 
 nav .Menu ul li .Button2 {
     width: 160px;
-    padding-left: 12px;
-    padding-top: 3px;
+    padding-left: 15px;
 }
 
 nav .Menu ul li .Button3 {
     width: 110px;
-    padding-left: 12px;
-    padding-top: 3px;
+    padding-left: 15px;
 }
 
 nav .Menu ul li a h4 {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    position: relative;
+    bottom: 12px;
 }
 
 nav .Menu ul li a:hover {
@@ -202,9 +202,8 @@ nav .Menu ul li a:hover h4 {
 }
 
 #Home .Title {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
-    padding-top: 30px;
     color: #FDAE0C;
     cursor: default;
 }
