@@ -14,4 +14,11 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error harum tenetur ad maiores perspiciatis laborum debitis nulla placeat, eos quod.</p>
     </section>
 </body>
+<script>
+    const Bg = document.getElementById ("Header");
+    window.addEventListener("scroll", function(){
+        Bg.style.backgroundSize = 160 - +window.pageYOffset/12+"%";
+        Bg.style.opacity = 1 - +window.pageYOffset/700+"";
+    });
+</script>
 </html>
