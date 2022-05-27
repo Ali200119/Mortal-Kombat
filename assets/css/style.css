@@ -127,7 +127,7 @@ nav .Title {
     font-size: 35px;
     color: white;
     bottom: 15px;
-    padding-right: 1050px;
+    padding-right: 64%;
     cursor: default;
 }
 
@@ -210,7 +210,7 @@ nav .Menu ul li a:hover h4 {
 
 #Home .Posters {
     position: relative;
-    left: 23.5%;
+    left: 29%;
     top: 6%;
     width: 1000px;
     height: 450px;
