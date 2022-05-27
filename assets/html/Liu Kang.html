@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/Raiden.css">
+    <title>Liu Kang Biography</title>
+</head>
+<body>
+    <div id="Header"></div>
+    <section>
+        <h2>Liu Kang</h2>
+        <p>Liu Kang is a fictional character in the Mortal Kombat fighting game series by Midway Games and NetherRealm Studios. Depicted as Earthrealm's greatest warrior and champion, he is generally the main hero of the series. He debuted in the original 1992 game as a Shaolin monk with special moves intended to be the easiest to perform. Since his introduction, Liu Kang has appeared in every main installment except Mortal Kombat: Deadly Alliance (2002). He is also one of the protagonists of the action-adventure spin-off Mortal Kombat: Shaolin Monks (2005). The character's storyline sees him win the eponymous Mortal Kombat tournament in the first and second games, saving Earthrealm from being conquered by the opposing forces of Outworld. During both the original and rebooted timelines, Liu Kang receives a more villainous depiction after he is killed, appearing as a reanimated corpse in the former and an undead revenant who rules the Netherrealm in the latter. He returns to his heroic role in Mortal Kombat 11 (2019), where he becomes the god of fire. Liu Kang has appeared in various media outside of the games, including as the hero of the 1995 film adaptation and its 1997 sequel Mortal Kombat: Annihilation. Reception of the character has been mainly favorable for his special moves and gameplay, although criticism has been directed towards his Bruce Lee-inspired yells. His characterization in the reboot games has also received praise.</p>
+    </section>
+</body>
+<script>
+    const Bg = document.getElementById ("Header");
+    window.addEventListener("scroll", function(){
+        Bg.style.backgroundSize = 160 - +window.pageYOffset/12+"%";
+        Bg.style.opacity = 1 - +window.pageYOffset/700+"";
+    });
+</script>
+</html>
