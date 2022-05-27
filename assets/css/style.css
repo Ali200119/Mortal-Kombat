@@ -197,21 +197,21 @@ nav .Menu ul li a:hover h4 {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Dash Horizon;
+    padding-left: 650px;
 }
 
 #Home .Title {
     font-size: 80px;
-    text-align: center;
     color: #FDAE0C;
     cursor: default;
     position: relative;
     bottom: 30px;
+    left: 130px;
 }
 
 #Home .Posters {
     position: relative;
-    left: 29%;
-    top: 6%;
+    top: 30px;
     width: 1000px;
     height: 450px;
     animation-name: slideshow;
