@@ -119,6 +119,7 @@ nav {
 nav .Logo {
     padding-top: 10px;
     padding-left: 15px;
+    min-width: 120px;
 }
 
 nav .Title {
@@ -127,12 +128,12 @@ nav .Title {
     font-size: 35px;
     color: white;
     bottom: 15px;
-    padding-right: 64%;
+    padding-right: 65%;
     cursor: default;
 }
 
 nav .Menu {
-    padding-right: 200px;
+    padding-right: 150px;
     padding-top: 20px;
     font-family: Dash Horizon;
 }
@@ -207,6 +208,7 @@ nav .Menu ul li a:hover h4 {
     position: relative;
     bottom: 30px;
     left: 130px;
+    width: 780px;
 }
 
 #Home .Posters {
@@ -313,25 +315,27 @@ nav .Menu ul li a:hover h4 {
     background-image: url("/assets/images/Characters\ Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 380px;
+    padding-top: 100px;
 }
 
 #Characters .Title {
-    font-size: 60px;
-    text-align: center;
+    font-size: 70px;
     padding-top: 30px;
     color: #FDAE0C;
     cursor: default;
     font-family: Dash Horizon;
+    position: relative;
+    left: 523px;
+    bottom: 130px;
+    width: 550px;
 }
 
 #Characters .Container {
     display: flex;
     flex-wrap: wrap;
     width: 1500px;
-    position: relative;
     justify-content: space-between;
-    top: 150px;
-    left: 200px;
     font-family: Roboto;
 }
 
