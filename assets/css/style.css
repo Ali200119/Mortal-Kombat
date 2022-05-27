@@ -158,17 +158,17 @@ nav .Menu ul li a {
 
 nav .Menu ul li .Button1 {
     width: 100px;
-    padding-left: 14px;;
+    padding-left: 16px;;
 }
 
 nav .Menu ul li .Button2 {
     width: 160px;
-    padding-left: 15px;
+    padding-left: 16px;
 }
 
 nav .Menu ul li .Button3 {
     width: 110px;
-    padding-left: 15px;
+    padding-left: 17px;
 }
 
 nav .Menu ul li a h4 {
@@ -176,6 +176,7 @@ nav .Menu ul li a h4 {
     font-size: 30px;
     position: relative;
     bottom: 12px;
+    font-weight: 100;
 }
 
 nav .Menu ul li a:hover {
@@ -206,13 +207,15 @@ nav .Menu ul li a:hover h4 {
     text-align: center;
     color: #FDAE0C;
     cursor: default;
+    position: relative;
+    bottom: 30px;
 }
 
 #Home .Posters {
     border: 0 solid;
     position: relative;
     left: 23.5%;
-    top: 10%;
+    top: 6%;
     width: 1000px;
     height: 450px;
     animation-name: slideshow;
