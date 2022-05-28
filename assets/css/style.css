@@ -309,7 +309,7 @@ nav .Menu ul li a:hover h4 {
 /* Characters Start */
 
 #Characters {
-    height: 1300px;
+    height: 900px;
     background-image: url("/assets/images/Characters\ Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -602,8 +602,8 @@ nav .Menu ul li a:hover h4 {
 /* Games Start */
 
 #Games {
-    height: 1000px;
-    background-color: #111;
+    height: 800px;
+    background-image: url("/assets/images/Games\ Background.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
