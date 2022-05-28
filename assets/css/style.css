@@ -660,6 +660,7 @@ nav .Menu ul li a:hover h4 {
     font-family: Dash Horizon;
     padding-bottom: 20px;
     font-size: 25px;
+    font-weight: 100;
 }
 
 #Games .Container .GameBox .Content p {
