@@ -12,4 +12,11 @@ function Counter()
     }, 50)
 }
 
-Counter()
+Counter();
+
+
+
+VanillaTilt.init(document.querySelectorAll(".GameBox"), {
+    max: 25,
+    speed: 400
+});
