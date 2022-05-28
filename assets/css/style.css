@@ -635,10 +635,6 @@ nav .Menu ul li a:hover h4 {
     cursor: pointer;
 }
 
-#Games .Container .GameBox:hover {
-    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.2);
-}
-
 #Games .Container .GameBox .imgBox {
     position: absolute;
     top: 0;
