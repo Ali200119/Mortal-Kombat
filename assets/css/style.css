@@ -77,8 +77,8 @@
 
 #Loading .Preloader .LoadingLogo {
     position: relative;
-    right: 40px;
-    top: 400px;
+    right: 1.8%;
+    top: 43%;
     animation-name: loading;
     animation-duration: 5s;
     animation-iteration-count: infinite;
